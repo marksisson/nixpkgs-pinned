@@ -6,13 +6,13 @@ let
   nixpkgs = import (fetchTarball {
 
     # Descriptive name to make the store path easier to identify
-    name = "nixpkgs-unstable-2020-12-29";
+    name = "nixpkgs-unstable-2021-04-28";
 
-    # Commit hash for nixos-unstable as of 2020-12-29
-    url = "https://github.com/software-capital/NixOS.nixpkgs/archive/1aa915c09dfe5d70570a59646df37ea718e93148.tar.gz";
+    # Commit hash for nixos-unstable as of 2021-04-28
+    url = "https://github.com/software-capital/NixOS.nixpkgs/archive/f93ecc4f6bc60414d8b73dbdf615ceb6a2c604df.tar.gz";
 
     # Hash obtained using `nix-prefetch-url --unpack <url>`
-    sha256 = "02midnk3c9pdv6bcfq0nz3da22qmxy233ba7fwxd9k2q13fyi9h1";
+    sha256 = "0mgsvyy1nmisf3iwhf0v3ajs5vjy49xa0vqj3dshwxig8y343hfs";
 
   });
 in
